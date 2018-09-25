@@ -1,0 +1,505 @@
+EESchema Schematic File Version 4
+LIBS:PBC_TP_Final_JMena-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 6
+Title "PBC TP Final - Tarjeta de Expanción GEO-HCAL "
+Date "14/06/18"
+Rev "RG 1.0"
+Comp "GEO Technologies"
+Comment1 "Autor: Jairo Mena"
+Comment2 "Versión: 1.0"
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Regulator_Linear:NCP1117-5.0_SOT223 U?
+U 1 1 5BA90226
+P 6700 1950
+F 0 "U?" H 6700 2192 50  0000 C CNN
+F 1 "NCP1117-5.0_SOT223" H 6700 2101 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 6700 2150 50  0001 C CNN
+F 3 "http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF" H 6800 1700 50  0001 C CNN
+	1    6700 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 5BA903B0
+P 6700 2550
+F 0 "#PWR?" H 6700 2350 50  0001 C CNN
+F 1 "GNDPWR" H 6704 2396 50  0000 C CNN
+F 2 "" H 6700 2500 50  0001 C CNN
+F 3 "" H 6700 2500 50  0001 C CNN
+	1    6700 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5BA90465
+P 6050 2250
+F 0 "C?" H 6165 2296 50  0000 L CNN
+F 1 "10uF" H 6165 2205 50  0000 L CNN
+F 2 "" H 6088 2100 50  0001 C CNN
+F 3 "~" H 6050 2250 50  0001 C CNN
+	1    6050 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C?
+U 1 1 5BA904CF
+P 7350 2250
+F 0 "C?" H 7468 2296 50  0000 L CNN
+F 1 "10uF" H 7468 2205 50  0000 L CNN
+F 2 "" H 7388 2100 50  0001 C CNN
+F 3 "~" H 7350 2250 50  0001 C CNN
+	1    7350 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 5BA9058E
+P 6050 2550
+F 0 "#PWR?" H 6050 2350 50  0001 C CNN
+F 1 "GNDPWR" H 6054 2396 50  0000 C CNN
+F 2 "" H 6050 2500 50  0001 C CNN
+F 3 "" H 6050 2500 50  0001 C CNN
+	1    6050 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 5BA9059F
+P 7350 2550
+F 0 "#PWR?" H 7350 2350 50  0001 C CNN
+F 1 "GNDPWR" H 7354 2396 50  0000 C CNN
+F 2 "" H 7350 2500 50  0001 C CNN
+F 3 "" H 7350 2500 50  0001 C CNN
+	1    7350 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Regulator_Linear:LM1084-3.3 U?
+U 1 1 5BA90A3F
+P 9500 1950
+F 0 "U?" H 9500 2192 50  0000 C CNN
+F 1 "LM1084-3.3" H 9500 2101 50  0000 C CNN
+F 2 "" H 9500 2200 50  0001 C CIN
+F 3 "http://www.ti.com/lit/ds/symlink/lm1084.pdf" H 9500 1950 50  0001 C CNN
+	1    9500 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 5BA90B27
+P 9500 2550
+F 0 "#PWR?" H 9500 2350 50  0001 C CNN
+F 1 "GNDPWR" H 9504 2396 50  0000 C CNN
+F 2 "" H 9500 2500 50  0001 C CNN
+F 3 "" H 9500 2500 50  0001 C CNN
+	1    9500 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 5BA90B3A
+P 8850 2550
+F 0 "#PWR?" H 8850 2350 50  0001 C CNN
+F 1 "GNDPWR" H 8854 2396 50  0000 C CNN
+F 2 "" H 8850 2500 50  0001 C CNN
+F 3 "" H 8850 2500 50  0001 C CNN
+	1    8850 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 5BA90B4D
+P 10150 2550
+F 0 "#PWR?" H 10150 2350 50  0001 C CNN
+F 1 "GNDPWR" H 10154 2396 50  0000 C CNN
+F 2 "" H 10150 2500 50  0001 C CNN
+F 3 "" H 10150 2500 50  0001 C CNN
+	1    10150 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5BA90BED
+P 8850 2250
+F 0 "C?" H 8965 2296 50  0000 L CNN
+F 1 "10uF" H 8965 2205 50  0000 L CNN
+F 2 "" H 8888 2100 50  0001 C CNN
+F 3 "~" H 8850 2250 50  0001 C CNN
+	1    8850 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C?
+U 1 1 5BA90C5C
+P 10150 2250
+F 0 "C?" H 10268 2296 50  0000 L CNN
+F 1 "10uF" H 10268 2205 50  0000 L CNN
+F 2 "" H 10188 2100 50  0001 C CNN
+F 3 "~" H 10150 2250 50  0001 C CNN
+	1    10150 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9200 1950 8850 1950
+Wire Wire Line
+	8850 1950 8850 2100
+Wire Wire Line
+	9800 1950 10150 1950
+Wire Wire Line
+	10150 1950 10150 2100
+Wire Wire Line
+	7000 1950 7350 1950
+Wire Wire Line
+	7350 1950 7350 2100
+Wire Wire Line
+	10150 2550 10150 2400
+Wire Wire Line
+	9500 2250 9500 2550
+Wire Wire Line
+	8850 2550 8850 2400
+Wire Wire Line
+	6700 2250 6700 2550
+Wire Wire Line
+	6050 2550 6050 2400
+Wire Wire Line
+	7350 2550 7350 2400
+$Comp
+L Connector:Barrel_Jack J?
+U 1 1 5BA91513
+P 1350 2200
+F 0 "J?" H 1405 2525 50  0000 C CNN
+F 1 "Barrel_Jack" H 1405 2434 50  0000 C CNN
+F 2 "" H 1400 2160 50  0001 C CNN
+F 3 "~" H 1400 2160 50  0001 C CNN
+	1    1350 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 5BA933EE
+P 1950 2550
+F 0 "#PWR?" H 1950 2350 50  0001 C CNN
+F 1 "GNDPWR" H 1954 2396 50  0000 C CNN
+F 2 "" H 1950 2500 50  0001 C CNN
+F 3 "" H 1950 2500 50  0001 C CNN
+	1    1950 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR?
+U 1 1 5BA9375B
+P 2600 5450
+F 0 "#PWR?" H 2600 5300 50  0001 C CNN
+F 1 "+12V" H 2615 5623 50  0000 C CNN
+F 2 "" H 2600 5450 50  0001 C CNN
+F 3 "" H 2600 5450 50  0001 C CNN
+	1    2600 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Ferrite_Bead L?
+U 1 1 5BA942CC
+P 2150 4150
+F 0 "L?" V 1876 4150 50  0000 C CNN
+F 1 "Ferrite_Bead" V 1967 4150 50  0000 C CNN
+F 2 "" V 2080 4150 50  0001 C CNN
+F 3 "~" H 2150 4150 50  0001 C CNN
+	1    2150 4150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:Ferrite_Bead L?
+U 1 1 5BA943FF
+P 2150 4900
+F 0 "L?" V 1876 4900 50  0000 C CNN
+F 1 "Ferrite_Bead" V 1967 4900 50  0000 C CNN
+F 2 "" V 2080 4900 50  0001 C CNN
+F 3 "~" H 2150 4900 50  0001 C CNN
+	1    2150 4900
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:Ferrite_Bead L?
+U 1 1 5BA9444E
+P 2100 6300
+F 0 "L?" V 1826 6300 50  0000 C CNN
+F 1 "Ferrite_Bead" V 1917 6300 50  0000 C CNN
+F 2 "" V 2030 6300 50  0001 C CNN
+F 3 "~" H 2100 6300 50  0001 C CNN
+	1    2100 6300
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:Ferrite_Bead L?
+U 1 1 5BA944F9
+P 2100 7000
+F 0 "L?" V 1826 7000 50  0000 C CNN
+F 1 "Ferrite_Bead" V 1917 7000 50  0000 C CNN
+F 2 "" V 2030 7000 50  0001 C CNN
+F 3 "~" H 2100 7000 50  0001 C CNN
+	1    2100 7000
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 5BA9502F
+P 1700 6500
+F 0 "#PWR?" H 1700 6300 50  0001 C CNN
+F 1 "GNDPWR" H 1704 6346 50  0000 C CNN
+F 2 "" H 1700 6450 50  0001 C CNN
+F 3 "" H 1700 6450 50  0001 C CNN
+	1    1700 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 5BA950C9
+P 1700 7200
+F 0 "#PWR?" H 1700 7000 50  0001 C CNN
+F 1 "GNDPWR" H 1704 7046 50  0000 C CNN
+F 2 "" H 1700 7150 50  0001 C CNN
+F 3 "" H 1700 7150 50  0001 C CNN
+	1    1700 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR?
+U 1 1 5BA951F2
+P 2500 6500
+F 0 "#PWR?" H 2500 6250 50  0001 C CNN
+F 1 "GNDD" H 2504 6345 50  0000 C CNN
+F 2 "" H 2500 6500 50  0001 C CNN
+F 3 "" H 2500 6500 50  0001 C CNN
+	1    2500 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDA #PWR?
+U 1 1 5BA9528C
+P 2500 7200
+F 0 "#PWR?" H 2500 6950 50  0001 C CNN
+F 1 "GNDA" H 2505 7027 50  0000 C CNN
+F 2 "" H 2500 7200 50  0001 C CNN
+F 3 "" H 2500 7200 50  0001 C CNN
+	1    2500 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5BA95365
+P 2600 4000
+F 0 "#PWR?" H 2600 3850 50  0001 C CNN
+F 1 "+5V" H 2615 4173 50  0000 C CNN
+F 2 "" H 2600 4000 50  0001 C CNN
+F 3 "" H 2600 4000 50  0001 C CNN
+	1    2600 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5BA953C5
+P 2600 4750
+F 0 "#PWR?" H 2600 4600 50  0001 C CNN
+F 1 "+3.3V" H 2615 4923 50  0000 C CNN
+F 2 "" H 2600 4750 50  0001 C CNN
+F 3 "" H 2600 4750 50  0001 C CNN
+	1    2600 4750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2250 6300 2500 6300
+Wire Wire Line
+	2500 6300 2500 6500
+Wire Wire Line
+	1950 6300 1700 6300
+Wire Wire Line
+	1700 6300 1700 6500
+Wire Wire Line
+	2250 7000 2500 7000
+Wire Wire Line
+	2500 7000 2500 7200
+Wire Wire Line
+	1950 7000 1700 7000
+Wire Wire Line
+	1700 7000 1700 7200
+Wire Wire Line
+	2300 4900 2600 4900
+Wire Wire Line
+	2600 4900 2600 4750
+Wire Wire Line
+	2300 4150 2600 4150
+Wire Wire Line
+	2600 4150 2600 4000
+Text GLabel 7350 1950 2    50   Input ~ 0
+PW5V
+Text GLabel 10150 1950 2    50   Input ~ 0
+PW3V3
+Wire Wire Line
+	2000 4150 1750 4150
+Wire Wire Line
+	1750 4900 2000 4900
+Text GLabel 1750 4900 0    50   Input ~ 0
+PW3V3
+Text GLabel 1750 4150 0    50   Input ~ 0
+PW5V
+$Comp
+L Device:R R?
+U 1 1 5BA9C3BB
+P 5150 5400
+F 0 "R?" H 5220 5446 50  0000 L CNN
+F 1 "220" H 5220 5355 50  0000 L CNN
+F 2 "" V 5080 5400 50  0001 C CNN
+F 3 "~" H 5150 5400 50  0001 C CNN
+	1    5150 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 5BA9C517
+P 5150 5900
+F 0 "#PWR?" H 5150 5700 50  0001 C CNN
+F 1 "GNDPWR" H 5154 5746 50  0000 C CNN
+F 2 "" H 5150 5850 50  0001 C CNN
+F 3 "" H 5150 5850 50  0001 C CNN
+	1    5150 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5BA9C8A2
+P 5150 4900
+F 0 "D?" V 5188 4783 50  0000 R CNN
+F 1 "LED" V 5097 4783 50  0000 R CNN
+F 2 "" H 5150 4900 50  0001 C CNN
+F 3 "~" H 5150 4900 50  0001 C CNN
+	1    5150 4900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5150 5900 5150 5550
+Wire Wire Line
+	5150 5250 5150 5050
+Wire Wire Line
+	5150 4750 5150 4450
+Text GLabel 5150 4450 0    50   Input ~ 0
+PW3V3
+Wire Notes Line
+	2800 2900 2800 1200
+Wire Notes Line
+	2800 1200 750  1200
+Wire Notes Line
+	750  1200 750  2900
+Wire Notes Line
+	750  2900 2800 2900
+Wire Notes Line
+	5600 2900 7900 2900
+Wire Notes Line
+	8200 2900 10950 2900
+Wire Notes Line
+	5600 1200 7900 1200
+Wire Notes Line
+	7900 1200 7900 2900
+Wire Notes Line
+	5600 1200 5600 2900
+Wire Notes Line
+	8200 1200 10950 1200
+Wire Notes Line
+	10950 1200 10950 2900
+Wire Notes Line
+	8200 1200 8200 2900
+Wire Notes Line
+	4000 6400 6050 6400
+Wire Notes Line
+	6050 6400 6050 3650
+Wire Notes Line
+	6050 3650 4000 3650
+Wire Notes Line
+	4000 3650 4000 6400
+Wire Notes Line
+	1250 7550 3150 7550
+Text Notes 1000 1550 0    79   ~ 0
+Conector de Entrada de \nPotencia (12V)
+Text Notes 6000 1500 0    79   ~ 0
+Regulador lineal de 5V
+Text Notes 8800 1500 0    79   ~ 0
+Regulador Lineal de 3.3V
+Text Notes 4300 4050 0    79   ~ 0
+Visualizador de Potencia
+Text Notes 1450 3600 0    79   ~ 0
+Filtrado y separación \nde Señales de Potencia
+$Comp
+L Switch:SW_DIP_x01 SW?
+U 1 1 5BAA6A7A
+P 4050 2400
+F 0 "SW?" H 4050 2667 50  0000 C CNN
+F 1 "SW_DIP_x01" H 4050 2576 50  0000 C CNN
+F 2 "" H 4050 2400 50  0001 C CNN
+F 3 "" H 4050 2400 50  0001 C CNN
+	1    4050 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4350 2400 4500 2400
+Text GLabel 4500 2400 2    79   Input ~ 0
+PW12V
+Wire Notes Line
+	3250 1200 5200 1200
+Text Notes 3600 1700 0    79   ~ 0
+Switch de \nEncendido y Apagado
+Wire Wire Line
+	6050 2100 6050 1950
+Wire Wire Line
+	6050 1950 6400 1950
+Text GLabel 6050 1950 0    50   Input ~ 0
+PW12V
+Wire Notes Line
+	3250 2900 5200 2900
+Wire Notes Line
+	3250 1200 3250 2900
+Wire Notes Line
+	5200 1200 5200 2900
+Wire Wire Line
+	1650 2300 1950 2300
+Wire Wire Line
+	1950 2300 1950 2550
+$Comp
+L Device:Ferrite_Bead L?
+U 1 1 5BAE89A6
+P 2150 5600
+F 0 "L?" V 1876 5600 50  0000 C CNN
+F 1 "Ferrite_Bead" V 1967 5600 50  0000 C CNN
+F 2 "" V 2080 5600 50  0001 C CNN
+F 3 "~" H 2150 5600 50  0001 C CNN
+	1    2150 5600
+	0    1    1    0   
+$EndComp
+Wire Notes Line
+	3150 3250 1250 3250
+Wire Notes Line
+	3150 3250 3150 7550
+Wire Notes Line
+	1250 3250 1250 7550
+Wire Wire Line
+	2300 5600 2600 5600
+Wire Wire Line
+	2600 5600 2600 5450
+Wire Wire Line
+	2000 5600 1750 5600
+Text GLabel 1750 5600 0    50   Input ~ 0
+PW12V
+Wire Wire Line
+	1650 2100 1950 2100
+Wire Wire Line
+	3750 2400 3650 2400
+Text GLabel 3650 2400 0    50   Input ~ 0
+IN12V
+Text GLabel 1950 2100 2    50   Input ~ 0
+IN12V
+$EndSCHEMATC

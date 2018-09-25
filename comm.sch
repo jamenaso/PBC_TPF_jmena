@@ -1,0 +1,605 @@
+EESchema Schematic File Version 4
+LIBS:PBC_TP_Final_JMena-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 6 6
+Title "PBC TP Final - Tarjeta de Expanción GEO-HCAL "
+Date "14/06/18"
+Rev "RG 1.0"
+Comp "GEO Technologies"
+Comment1 "Autor: Jairo Mena"
+Comment2 "Versión: 1.0"
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Interface_USB:FT232RL U?
+U 1 1 5BADA0FC
+P 8800 3600
+F 0 "U?" H 8300 4650 50  0000 C CNN
+F 1 "FT232RL" H 8400 4550 50  0000 C CNN
+F 2 "Package_SO:SSOP-28_5.3x10.2mm_P0.65mm" H 8800 3600 50  0001 C CNN
+F 3 "http://www.ftdichip.com/Products/ICs/FT232RL.htm" H 8800 3600 50  0001 C CNN
+	1    8800 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:USB_B_Micro J?
+U 1 1 5BADA2E0
+P 6550 3350
+F 0 "J?" H 6605 3817 50  0000 C CNN
+F 1 "USB_B_Micro" H 6605 3726 50  0000 C CNN
+F 2 "" H 6700 3300 50  0001 C CNN
+F 3 "~" H 6700 3300 50  0001 C CNN
+	1    6550 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5BADA4C9
+P 10100 3250
+F 0 "R?" H 10170 3296 50  0000 L CNN
+F 1 "R" H 10170 3205 50  0000 L CNN
+F 2 "" V 10030 3250 50  0001 C CNN
+F 3 "~" H 10100 3250 50  0001 C CNN
+	1    10100 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5BADA59C
+P 10450 3250
+F 0 "R?" H 10520 3296 50  0000 L CNN
+F 1 "R" H 10520 3205 50  0000 L CNN
+F 2 "" V 10380 3250 50  0001 C CNN
+F 3 "~" H 10450 3250 50  0001 C CNN
+	1    10450 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5BADA66F
+P 10100 2800
+F 0 "D?" V 10138 2683 50  0000 R CNN
+F 1 "LED" V 10047 2683 50  0000 R CNN
+F 2 "" H 10100 2800 50  0001 C CNN
+F 3 "~" H 10100 2800 50  0001 C CNN
+	1    10100 2800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5BADA6ED
+P 10450 2800
+F 0 "D?" V 10488 2683 50  0000 R CNN
+F 1 "LED" V 10397 2683 50  0000 R CNN
+F 2 "" H 10450 2800 50  0001 C CNN
+F 3 "~" H 10450 2800 50  0001 C CNN
+	1    10450 2800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5BADA81F
+P 10100 2500
+F 0 "#PWR?" H 10100 2350 50  0001 C CNN
+F 1 "+3.3V" H 10115 2673 50  0000 C CNN
+F 2 "" H 10100 2500 50  0001 C CNN
+F 3 "" H 10100 2500 50  0001 C CNN
+	1    10100 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5BADA85B
+P 10450 2500
+F 0 "#PWR?" H 10450 2350 50  0001 C CNN
+F 1 "+3.3V" H 10465 2673 50  0000 C CNN
+F 2 "" H 10450 2500 50  0001 C CNN
+F 3 "" H 10450 2500 50  0001 C CNN
+	1    10450 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5BADA947
+P 9100 2200
+F 0 "C?" H 9215 2246 50  0000 L CNN
+F 1 "0.1uF" H 9215 2155 50  0000 L CNN
+F 2 "" H 9138 2050 50  0001 C CNN
+F 3 "~" H 9100 2200 50  0001 C CNN
+	1    9100 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5BADAA23
+P 9600 2200
+F 0 "C?" H 9715 2246 50  0000 L CNN
+F 1 "1uF" H 9715 2155 50  0000 L CNN
+F 2 "" H 9638 2050 50  0001 C CNN
+F 3 "~" H 9600 2200 50  0001 C CNN
+	1    9600 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5BADAAAF
+P 7950 2200
+F 0 "C?" H 8065 2246 50  0000 L CNN
+F 1 "0.1uF" H 8065 2155 50  0000 L CNN
+F 2 "" H 7988 2050 50  0001 C CNN
+F 3 "~" H 7950 2200 50  0001 C CNN
+	1    7950 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5BADAB51
+P 7400 3200
+F 0 "C?" H 7515 3246 50  0000 L CNN
+F 1 "0.1uF" H 7515 3155 50  0000 L CNN
+F 2 "" H 7438 3050 50  0001 C CNN
+F 3 "~" H 7400 3200 50  0001 C CNN
+	1    7400 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR?
+U 1 1 5BADAC23
+P 9000 4850
+F 0 "#PWR?" H 9000 4600 50  0001 C CNN
+F 1 "GNDD" H 9004 4695 50  0000 C CNN
+F 2 "" H 9000 4850 50  0001 C CNN
+F 3 "" H 9000 4850 50  0001 C CNN
+	1    9000 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR?
+U 1 1 5BADACF3
+P 9100 2450
+F 0 "#PWR?" H 9100 2200 50  0001 C CNN
+F 1 "GNDD" H 9104 2295 50  0000 C CNN
+F 2 "" H 9100 2450 50  0001 C CNN
+F 3 "" H 9100 2450 50  0001 C CNN
+	1    9100 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR?
+U 1 1 5BADAD62
+P 9600 2450
+F 0 "#PWR?" H 9600 2200 50  0001 C CNN
+F 1 "GNDD" H 9604 2295 50  0000 C CNN
+F 2 "" H 9600 2450 50  0001 C CNN
+F 3 "" H 9600 2450 50  0001 C CNN
+	1    9600 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR?
+U 1 1 5BADAD81
+P 7950 2500
+F 0 "#PWR?" H 7950 2250 50  0001 C CNN
+F 1 "GNDD" H 7954 2345 50  0000 C CNN
+F 2 "" H 7950 2500 50  0001 C CNN
+F 3 "" H 7950 2500 50  0001 C CNN
+	1    7950 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR?
+U 1 1 5BADAE08
+P 7400 3500
+F 0 "#PWR?" H 7400 3250 50  0001 C CNN
+F 1 "GNDD" H 7404 3345 50  0000 C CNN
+F 2 "" H 7400 3500 50  0001 C CNN
+F 3 "" H 7400 3500 50  0001 C CNN
+	1    7400 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5BADAECF
+P 9600 1900
+F 0 "#PWR?" H 9600 1750 50  0001 C CNN
+F 1 "+5V" H 9615 2073 50  0000 C CNN
+F 2 "" H 9600 1900 50  0001 C CNN
+F 3 "" H 9600 1900 50  0001 C CNN
+	1    9600 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR?
+U 1 1 5BADAF63
+P 6450 3900
+F 0 "#PWR?" H 6450 3650 50  0001 C CNN
+F 1 "GNDD" H 6454 3745 50  0000 C CNN
+F 2 "" H 6450 3900 50  0001 C CNN
+F 3 "" H 6450 3900 50  0001 C CNN
+	1    6450 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7950 2350 7950 2500
+Wire Wire Line
+	9100 2450 9100 2350
+Wire Wire Line
+	9600 2450 9600 2350
+Wire Wire Line
+	9600 2050 9600 2000
+Wire Wire Line
+	9100 2050 9100 2000
+Wire Wire Line
+	9100 2000 9600 2000
+Connection ~ 9600 2000
+Wire Wire Line
+	9600 2000 9600 1900
+Connection ~ 9100 2000
+Wire Wire Line
+	8900 2000 8900 2600
+Wire Wire Line
+	8700 2600 8700 2000
+Wire Wire Line
+	7950 2000 7950 2050
+Wire Wire Line
+	7400 2900 7400 3050
+Wire Wire Line
+	7400 2000 7400 2900
+Connection ~ 7950 2000
+Connection ~ 7400 2900
+Wire Wire Line
+	7400 3500 7400 3350
+Wire Wire Line
+	7400 2000 7950 2000
+Wire Wire Line
+	10100 3400 10100 3900
+Wire Wire Line
+	10100 3100 10100 2950
+Wire Wire Line
+	10100 2650 10100 2500
+Wire Wire Line
+	10450 4000 10450 3400
+Wire Wire Line
+	10450 3100 10450 2950
+Wire Wire Line
+	10450 2650 10450 2500
+Wire Wire Line
+	8000 3200 7950 3200
+Wire Wire Line
+	8000 3300 7950 3300
+Wire Wire Line
+	9600 2900 9650 2900
+Wire Wire Line
+	9600 3000 9650 3000
+Wire Wire Line
+	9000 4600 9000 4700
+Wire Wire Line
+	8900 4600 8900 4700
+Wire Wire Line
+	8900 4700 9000 4700
+Connection ~ 9000 4700
+Wire Wire Line
+	9000 4700 9000 4850
+Wire Wire Line
+	8800 4600 8800 4700
+Wire Wire Line
+	8800 4700 8900 4700
+Connection ~ 8900 4700
+Wire Wire Line
+	8600 4600 8600 4700
+Wire Wire Line
+	8600 4700 8800 4700
+Connection ~ 8800 4700
+Wire Wire Line
+	6450 3900 6450 3850
+Wire Wire Line
+	6550 3750 6550 3850
+Wire Wire Line
+	6550 3850 6450 3850
+Connection ~ 6450 3850
+Wire Wire Line
+	6450 3850 6450 3750
+Wire Wire Line
+	6850 3350 6900 3350
+Wire Wire Line
+	6850 3450 6900 3450
+Text GLabel 9650 2900 2    50   Input ~ 0
+TXD
+Text GLabel 9650 3000 2    50   Input ~ 0
+RXD
+Wire Wire Line
+	9600 3900 10100 3900
+Wire Wire Line
+	9600 4000 10450 4000
+Wire Wire Line
+	8900 2000 9100 2000
+Text GLabel 7950 3200 0    50   Input ~ 0
+D+
+Text GLabel 7950 3300 0    50   Input ~ 0
+D-
+Wire Wire Line
+	8000 2900 7400 2900
+Wire Wire Line
+	7950 2000 8700 2000
+Text GLabel 6900 3350 2    50   Input ~ 0
+D+
+Text GLabel 6900 3450 2    50   Input ~ 0
+D-
+$Comp
+L Interface_UART:MAX3232 U?
+U 1 1 5BAE7FC6
+P 2300 4400
+F 0 "U?" H 1850 5600 50  0000 C CNN
+F 1 "MAX3232" H 1950 5500 50  0000 C CNN
+F 2 "" H 2350 3350 50  0001 L CNN
+F 3 "https://datasheets.maximintegrated.com/en/ds/MAX3222-MAX3241.pdf" H 2300 4500 50  0001 C CNN
+	1    2300 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5BAE8D5C
+P 2650 2850
+F 0 "C?" H 2765 2896 50  0000 L CNN
+F 1 "0.1uF" H 2765 2805 50  0000 L CNN
+F 2 "" H 2688 2700 50  0001 C CNN
+F 3 "~" H 2650 2850 50  0001 C CNN
+	1    2650 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5BAE8EC6
+P 3100 2850
+F 0 "C?" H 3215 2896 50  0000 L CNN
+F 1 "2.2uF" H 3215 2805 50  0000 L CNN
+F 2 "" H 3138 2700 50  0001 C CNN
+F 3 "~" H 3100 2850 50  0001 C CNN
+	1    3100 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR?
+U 1 1 5BAE8FE2
+P 2650 3100
+F 0 "#PWR?" H 2650 2850 50  0001 C CNN
+F 1 "GNDD" H 2654 2945 50  0000 C CNN
+F 2 "" H 2650 3100 50  0001 C CNN
+F 3 "" H 2650 3100 50  0001 C CNN
+	1    2650 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR?
+U 1 1 5BAE903B
+P 3100 3100
+F 0 "#PWR?" H 3100 2850 50  0001 C CNN
+F 1 "GNDD" H 3104 2945 50  0000 C CNN
+F 2 "" H 3100 3100 50  0001 C CNN
+F 3 "" H 3100 3100 50  0001 C CNN
+	1    3100 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5BAE956B
+P 3100 2500
+F 0 "#PWR?" H 3100 2350 50  0001 C CNN
+F 1 "+3.3V" H 3115 2673 50  0000 C CNN
+F 2 "" H 3100 2500 50  0001 C CNN
+F 3 "" H 3100 2500 50  0001 C CNN
+	1    3100 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5BAE967A
+P 1050 3650
+F 0 "C?" H 1165 3696 50  0000 L CNN
+F 1 "0.1uF" H 1165 3605 50  0000 L CNN
+F 2 "" H 1088 3500 50  0001 C CNN
+F 3 "~" H 1050 3650 50  0001 C CNN
+	1    1050 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5BAE9758
+P 3450 3650
+F 0 "C?" H 3565 3696 50  0000 L CNN
+F 1 "0.1uF" H 3565 3605 50  0000 L CNN
+F 2 "" H 3488 3500 50  0001 C CNN
+F 3 "~" H 3450 3650 50  0001 C CNN
+	1    3450 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5BAE98BD
+P 3900 3650
+F 0 "C?" H 4015 3696 50  0000 L CNN
+F 1 "0.1uF" H 4015 3605 50  0000 L CNN
+F 2 "" H 3938 3500 50  0001 C CNN
+F 3 "~" H 3900 3650 50  0001 C CNN
+	1    3900 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5BAE992B
+P 3900 4600
+F 0 "C?" H 4015 4646 50  0000 L CNN
+F 1 "0.1uF" H 4015 4555 50  0000 L CNN
+F 2 "" H 3938 4450 50  0001 C CNN
+F 3 "~" H 3900 4600 50  0001 C CNN
+	1    3900 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR?
+U 1 1 5BAE9AEA
+P 3900 4900
+F 0 "#PWR?" H 3900 4650 50  0001 C CNN
+F 1 "GNDD" H 3904 4745 50  0000 C CNN
+F 2 "" H 3900 4900 50  0001 C CNN
+F 3 "" H 3900 4900 50  0001 C CNN
+	1    3900 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR?
+U 1 1 5BAE9B99
+P 2300 5750
+F 0 "#PWR?" H 2300 5500 50  0001 C CNN
+F 1 "GNDD" H 2304 5595 50  0000 C CNN
+F 2 "" H 2300 5750 50  0001 C CNN
+F 3 "" H 2300 5750 50  0001 C CNN
+	1    2300 5750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3100 2700 3100 2600
+Wire Wire Line
+	2650 2700 2650 2600
+Wire Wire Line
+	2650 2600 3100 2600
+Connection ~ 3100 2600
+Wire Wire Line
+	3100 2600 3100 2500
+Wire Wire Line
+	2300 3200 2300 2600
+Wire Wire Line
+	2300 2600 2650 2600
+Connection ~ 2650 2600
+Wire Wire Line
+	3100 3500 3250 3500
+Wire Wire Line
+	3250 3500 3250 3450
+Wire Wire Line
+	3250 3450 3450 3450
+Wire Wire Line
+	3450 3450 3450 3500
+Wire Wire Line
+	3100 3800 3250 3800
+Wire Wire Line
+	3250 3800 3250 3850
+Wire Wire Line
+	3250 3850 3450 3850
+Wire Wire Line
+	3450 3850 3450 3800
+Wire Wire Line
+	1500 3500 1300 3500
+Wire Wire Line
+	1300 3500 1300 3450
+Wire Wire Line
+	1300 3450 1050 3450
+Wire Wire Line
+	1050 3450 1050 3500
+Wire Wire Line
+	1500 3800 1300 3800
+Wire Wire Line
+	1300 3800 1300 3850
+Wire Wire Line
+	1300 3850 1050 3850
+Wire Wire Line
+	1050 3850 1050 3800
+Wire Wire Line
+	3100 4300 3900 4300
+Wire Wire Line
+	3900 4300 3900 4450
+Wire Wire Line
+	3900 4900 3900 4750
+Wire Wire Line
+	3100 4000 3900 4000
+Wire Wire Line
+	3900 4000 3900 3800
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5BAF495C
+P 3900 3350
+F 0 "#PWR?" H 3900 3200 50  0001 C CNN
+F 1 "+3.3V" H 3915 3523 50  0000 C CNN
+F 2 "" H 3900 3350 50  0001 C CNN
+F 3 "" H 3900 3350 50  0001 C CNN
+	1    3900 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 3500 3900 3350
+Wire Wire Line
+	2300 5750 2300 5600
+Wire Wire Line
+	1500 4900 1400 4900
+Wire Wire Line
+	1400 4500 1500 4500
+Wire Wire Line
+	3100 4500 3200 4500
+Wire Wire Line
+	3100 4900 3200 4900
+Text GLabel 1400 4500 0    50   Input ~ 0
+TxIn
+Text GLabel 1400 4900 0    50   Input ~ 0
+RxOut
+Text GLabel 3200 4500 2    50   Input ~ 0
+RS232_TxOut
+Text GLabel 3200 4900 2    50   Input ~ 0
+RS232_RxIn
+$Comp
+L Connector:DB9_Male J?
+U 1 1 5BB03133
+P 5200 4400
+F 0 "J?" H 5000 5100 50  0000 L CNN
+F 1 "DB9_Male" H 5000 5000 50  0000 L CNN
+F 2 "" H 5200 4400 50  0001 C CNN
+F 3 " ~" H 5200 4400 50  0001 C CNN
+	1    5200 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR?
+U 1 1 5BB0B5C4
+P 4550 4100
+F 0 "#PWR?" H 4550 3850 50  0001 C CNN
+F 1 "GNDD" H 4554 3945 50  0000 C CNN
+F 2 "" H 4550 4100 50  0001 C CNN
+F 3 "" H 4550 4100 50  0001 C CNN
+	1    4550 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4900 4000 4550 4000
+Wire Wire Line
+	4550 4000 4550 4100
+Wire Wire Line
+	4900 4600 4850 4600
+Wire Wire Line
+	4900 4400 4850 4400
+Text GLabel 4850 4600 0    50   Input ~ 0
+RS232_TxOut
+Text GLabel 4850 4400 0    50   Input ~ 0
+RS232_RxIn
+Wire Notes Line
+	10950 1750 5800 1750
+Wire Notes Line
+	5800 1750 5800 5100
+Wire Notes Line
+	5800 5100 10950 5100
+Wire Notes Line
+	10950 1750 10950 5100
+Wire Notes Line
+	750  6050 5600 6050
+Wire Notes Line
+	5600 6050 5600 1500
+Wire Notes Line
+	5600 1500 750  1500
+Wire Notes Line
+	750  1500 750  6050
+Text Notes 2750 1850 0    79   ~ 0
+Interfaz RS232
+Text Notes 6200 2450 0    79   ~ 0
+Interfaz\nUART-USB\n 
+$EndSCHEMATC
